@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T01:43:38 ICT" name="All Test Suite" finished-at="2022-10-07T01:45:29 ICT" duration-ms="110337">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T01:43:38 ICT" name="D:/automation/shopee" finished-at="2022-10-07T01:45:29 ICT" duration-ms="110337">
+      <class name="amazon.Shopping">
+        <test-method signature="goShopping()[pri:1, instance:amazon.Shopping@14a50707]" started-at="2022-10-07T01:44:15 ICT" name="goShopping" finished-at="2022-10-07T01:45:28 ICT" duration-ms="73552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazon.Shopping@14a50707]" started-at="2022-10-07T01:45:28 ICT" name="tearDown" finished-at="2022-10-07T01:45:29 ICT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.Shopping -->
+      <class name="amazon.Registration_Account">
+        <test-method signature="Registration()[pri:0, instance:amazon.Registration_Account@102cec62]" started-at="2022-10-07T01:43:38 ICT" name="Registration" finished-at="2022-10-07T01:44:15 ICT" duration-ms="36331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazon.Registration_Account@102cec62]" started-at="2022-10-07T01:44:15 ICT" name="tearDown" finished-at="2022-10-07T01:44:15 ICT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.Registration_Account -->
+    </test> <!-- D:/automation/shopee -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
