@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cermati" />
+        <module name="telkom1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cermati" target="11" />
+      <module name="telkom1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cermati" options="" />
+      <module name="telkom1" options="" />
     </option>
   </component>
 </project>

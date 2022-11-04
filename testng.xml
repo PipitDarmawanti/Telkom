@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="D:/automation/shopee">
+    <test verbose="2" preserve-order="true" name="D:/TELKOM/telkom">
         <classes>
-            <class name="cermati.CermatiDaftar">
+            <class name="sauslabs.TestcaseSauslabs">
                 <methods>
                     <include name="Daftar"/>
                 </methods>

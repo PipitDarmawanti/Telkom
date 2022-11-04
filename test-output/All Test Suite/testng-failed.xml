@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Shopping Amazon(failed)">
+  <test thread-count="5" name="D:/automation/shopee(failed)">
     <classes>
-      <class name="amazon.Shopping">
+      <class name="sauslabs.TestcaseSauslabs">
         <methods>
-          <include name="tearDown"/>
-          <include name="buyNowProduct"/>
-          <include name="seacrhProduct"/>
-          <include name="homePage"/>
+          <include name="Daftar"/>
         </methods>
-      </class> <!-- amazon.Shopping -->
+      </class> <!-- sauslabs.TestcaseSauslabs -->
     </classes>
-  </test> <!-- Shopping Amazon(failed) -->
+  </test> <!-- D:/automation/shopee(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

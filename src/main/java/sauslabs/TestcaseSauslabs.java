@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TcSauslabs {
+public class TestcaseSauslabs {
     WebDriver driver;
     @Test(priority = 0, description="Success Daftar Scenario")
     @Severity(SeverityLevel.BLOCKER)
@@ -23,5 +23,33 @@ public class TcSauslabs {
         Thread.sleep(3000);
 
         driver.navigate().refresh();
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        Thread.sleep(2000);
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        Thread.sleep(2000);
+        driver.findElement(By.id("login-button")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("checkout")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("first-name")).sendKeys("pipit");
+        Thread.sleep(2000);
+        driver.findElement(By.id("last-name")).sendKeys("darmawanti");
+        Thread.sleep(2000);
+        driver.findElement(By.id("postal-code")).sendKeys("16770");
+        Thread.sleep(2000);
+        driver.findElement(By.id("continue")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("finish")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("back-to-products")).click();
+        Thread.sleep(2000);
     }
+
+
 }
